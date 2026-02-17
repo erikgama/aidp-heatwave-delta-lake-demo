@@ -1,5 +1,10 @@
 # AIDP + MySQL HeatWave – Delta Lake Integration Demo
 
+## Architecture
+
+![Architecture Diagram](images/architecture.png)
+
+
 ## Overview
 
 This repository demonstrates how Oracle AIDP Workbench can generate a Delta Lake dataset in OCI Object Storage and how this dataset can be consumed by MySQL HeatWave Lakehouse.
