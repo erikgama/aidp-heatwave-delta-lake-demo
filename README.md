@@ -33,7 +33,7 @@ The notebook shows the full lifecycle of a Delta table, including data generatio
 The Delta table is written to:
 
 ```
-oci://<bucket>@<namespace>/<folder>/
+oci://<bucket>@<namespace>/<path-to-delta>/
 ```
 
 This directory contains:
@@ -95,11 +95,11 @@ SELECT * FROM delta_table_1;
 ## Repository Structure
 
 ```
+README.md
+LICENSE
 /notebooks/aidp_delta_demo.ipynb
 /sql/heatwave_load_external_table.sql
 /images/architecture.png (optional)
-README.md
-LICENSE
 ```
 
 ---
